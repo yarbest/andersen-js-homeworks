@@ -48,6 +48,7 @@
         return Object.keys(object1).every((key) => {
             //если в object2 есть такой же ключ, что и в object1, тогда можно продолжить
             if (key in object2) return checkEqual(object1[key], object2[key]);
+            //иначе вернется undefined и every сразу завершится
         });
     }
     const obj1 = {
