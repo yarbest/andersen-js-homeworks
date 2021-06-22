@@ -1,1 +1,1 @@
-https://yarbest.github.io/andersen-js-homeworks/timer/
+https://yarbest.github.io/andersen-js-homeworks/stopwatch/
