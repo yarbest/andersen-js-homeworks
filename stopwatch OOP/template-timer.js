@@ -1,4 +1,5 @@
 const templateTimer = `
+    
     <div class="timer-block">
         <span class="timer-hours">00</span>
         <span>:</span>
@@ -14,6 +15,7 @@ const templateTimer = `
         <button class="btn btn-stop">Stop</button>
         <button class="btn btn-round">Create new round</button>
         <button class="btn btn-reset">Reset</button>
+        <button class="btn-delete">X</button>
     </div>
 
     <div class="table-wrap">

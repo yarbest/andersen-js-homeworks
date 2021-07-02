@@ -71,13 +71,30 @@ tr:last-child td {
     color: white;
 }
 
-.btn-create-timer {
+.btn-create-timer,
+.btn-store-timer {
     background-color: black;
     color: white;
     margin-left: 20px;
     margin-top: 20px;
 }
-.btn-create-timer:hover {
+.btn-create-timer:hover,
+.btn-store-timer:hover {
     background-color: transparent;
     color: black;
+}
+
+.btn-controls-block {
+    position: relative;
+}
+
+.btn-delete {
+    position: absolute;
+    top: -45px;
+    right: 0;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    padding: 2px 5px;
+    cursor: pointer;
 }
